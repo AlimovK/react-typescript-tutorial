@@ -15,8 +15,8 @@ const Hooks = () => {
         isMerried:false
     }])
     //useRef
-    const ref1  = useRef<HTMLElement>(null)
-    const ref2= useRef<HTMLElement>(null)
+    const ref1  = useRef<HTMLInputElement>(null)
+    const ref2= useRef<HTMLInputElement>(null)
     return (
         <div>
            hooks

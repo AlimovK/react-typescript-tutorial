@@ -10,6 +10,7 @@ import Hooks from "./Components/Hooks/Hooks";
 import UseReducer from "./Components/Hooks/UseReducer";
 import Navbar from "./Components/Navbar";
 import {BrowserRouter, Routes,Route} from "react-router-dom";
+import Test from "./Test";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,6 +24,7 @@ root.render(
               <Route path={'/contact'} element={<UseContext/>}/>
           </Route>
       </Routes>
+      <Test/>
   </BrowserRouter>
 );
 
